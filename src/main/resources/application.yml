@@ -1,0 +1,22 @@
+cloud:
+  aws:
+    region:
+      static: sa-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: <CHAVE AQUI>
+      secret-key: <CHAVE AQUI>
+    end-point:
+      uri: <FILA AQUI>
+     #uri: copiar da fila criada na aws
+
+
+server:
+  port: 8083
+
+app:
+  lambda:
+    client:
+      register: my-lambda-test
